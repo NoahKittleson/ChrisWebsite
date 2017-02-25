@@ -21,3 +21,29 @@
   margin-left: 30px;
   color: #6bbd68;
 }
+
+#user-testimonials {
+  text-align: center;
+  /*background-color: rgba(107, 189, 104, 0.8); */
+  background-color: #6bbd68;
+  border: solid 3px black;
+  height: 350px;
+  width: 80%;
+  margin: 30px auto;
+}
+
+#user-pic {
+  margin-top: 20px;
+}
+
+#user-pic img {
+  margin: 0 auto;
+}
+
+#user-quote {
+  font-size: 60px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(25%); /*I don't know why this is 25, but it works...*/
+}
